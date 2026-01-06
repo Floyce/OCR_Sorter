@@ -547,8 +547,8 @@ export default function App() {
       </AnimatePresence>
 
       <footer className="absolute bottom-4 w-full text-center pointer-events-none">
-        <span className={cn("px-4 py-2 rounded-full text-sm font-medium backdrop-blur-md shadow-sm pointer-events-auto", darkMode ? "bg-white/10 text-pink-400" : "bg-white/60 text-pink-600")}>
-          Thank you Ndimzyy for the Papers 💖 <br>Build by a Baddie</br>
+        <span className={cn("px-4 py-2 rounded-full text-sm font-medium backdrop-blur-md shadow-sm pointer-events-auto inline-block", darkMode ? "bg-white/10 text-pink-400" : "bg-white/60 text-pink-600")}>
+          Thank you Ndimzyy for the Papers 💖 <br /> Built by a Baddie <br /> for Baddies
         </span>
       </footer>
     </div>
